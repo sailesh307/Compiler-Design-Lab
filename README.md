@@ -1,3 +1,10 @@
+# Index
+S.no | title
+--- | --- |
+1 | [Ques pdf](./Compiler%20LAB%20MANUAL%202%20(PCS-601).pdf)|
+2 | [All Programs](#all-codes)
+3 | [Important Table](#important-symbols)
+
 # How to use lex on windows
 
 - download flex [click here](http://gnuwin32.sourceforge.net/downlinks/flex.php)
