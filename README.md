@@ -112,9 +112,17 @@ while(p <= 3) {
 ```
 
 # With File Handling
-## [Program 5](program5.l)
+## [Program 5](program5)
 
 Design a LEX Code to count and print the number of total `characters, words, white spaces` in given `Input.txt file`.
 
-## [Program 6](program6.l)
+## [Program 6](program6)
 
+Design a LEX Code to `replace white spaces` of `Input.txt` file by `a single blank` character into 
+`Output.txt` file. 
+
+
+## [Program 7](program7)
+
+Design a LEX Code to `remove the comments` from any `C-Program` given at run-time and store 
+into `out.c` file
