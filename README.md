@@ -126,3 +126,9 @@ Design a LEX Code to `replace white spaces` of `Input.txt` file by `a single bla
 
 Design a LEX Code to `remove the comments` from any `C-Program` given at run-time and store 
 into `out.c` file
+
+
+## [Program 8](program8)
+
+Design  a  LEX  Code  to  `extract  all html  tags ` in  the  given  HTML  file  at  run  time  and  store  into 
+Text file given at run time.
