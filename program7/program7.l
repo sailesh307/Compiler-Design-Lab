@@ -16,7 +16,7 @@ int main(){
     printf("Enter input file (eg : sample.c): ");
     scanf("%s", input_file);
 
-    yyin = fopen("sample.c", "r");
+    yyin = fopen(input_file, "r");
     yyout = fopen("out.c", "w");
 
     yylex();
