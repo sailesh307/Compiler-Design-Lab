@@ -1,3 +1,12 @@
+/* Design a LEX Code for Tokenizing the following C - fragment.
+
+Identify and print:
+
+OPERATORS
+SEPERATORS
+KEYWORDS
+IDENTIFIERS */
+
 %{
 
 %}
