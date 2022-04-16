@@ -5,8 +5,8 @@
 %}
 
 %%
-[0-9]+ printf("int value %s", yytext);
-[0-9]+[.][0-9]+ printf("float value %s", yytext);
+(-)?[0-9]+ printf("int value %s", yytext);
+(-)?[0-9]+[.][0-9]+ printf("float value %s", yytext);
 .* printf("invalid value %s", yytext);
 %%
 
@@ -19,8 +19,10 @@ int main(){
 
 /* 
 Rule1 : check for integer
+        check for 0 or 1 -ve sign then 
         simply check for 1 or more digit only
 Rule2 : check for float value
+        check for 0 or 1 -ve sign then 
     rules for float value :
         - 1 or more digit before .
         - then .
