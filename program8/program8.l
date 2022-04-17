@@ -4,7 +4,6 @@
 %}
 
 %%
-"<!--"[^>]*"-->" ;
 "<"[^>]*">" ECHO;
 . ;
 %%
@@ -27,12 +26,10 @@ int main(){
 
 
 /* 
-Rule 1: check for comments
-        -> ignore it
-Rule 2: check for html tag
+Rule 1: check for html tag
         -> starts with <  and end with >
         -> and anything except > between them
        -> print to output file.
-Rule 3: check for other tokens
+Rule 2: check for other tokens
        -> do nothing
  */
