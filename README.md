@@ -97,7 +97,7 @@ Identify and print:
  - SEPERATORS
  - KEYWORDS
  - IDENTIFIERS
-```
+```C
 int p = 1, d = 0, r = 4;
 float m = 0.0, n = 200.0;
 while(p <= 3) {
