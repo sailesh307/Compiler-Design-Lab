@@ -97,7 +97,7 @@ Identify and print:
  - SEPERATORS
  - KEYWORDS
  - IDENTIFIERS
-```
+```c
 int p = 1, d = 0, r = 4;
 float m = 0.0, n = 200.0;
 while(p <= 3) {
@@ -132,3 +132,11 @@ into `out.c` file
 
 Design  a  LEX  Code  to  `extract  all html  tags ` in  the  given  HTML  file  at  run  time  and  store  into 
 Text file given at run time.
+
+
+# LEX code using DFA
+
+## [Program 9](program9)
+
+Design  a  DFA  in  LEX  Code  which  accepts  string  containing  even  number  of  ‘a’  and  even 
+number of ‘b’ over input alphabet {a, b}
