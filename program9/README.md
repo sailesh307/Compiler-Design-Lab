@@ -22,7 +22,7 @@ Design a DFA in LEX Code which accepts string containing even number of `a` and 
 4. Now write all actions rule for each node , i.e. what to do when particular character is read from input string.
 
 - if string is : `aabb`, then flow will be(see dfa diagram) :
-    - A -> A -> C -> C -> INITIAL
+    - A -> INITIAL -> C -> INITIAL
     - here last node is INITIAL node (i.e. final node)
     - so string is accepted by DFA
 - if string is : `ab`, then flow will be :
